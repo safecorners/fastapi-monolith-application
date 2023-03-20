@@ -9,9 +9,7 @@
             "type": "python",
             "request": "launch",
             "module": "uvicorn",
-            "env": {
-                "PYTHONPATH": "src"
-            },
+            "env": {},
             "args": [
                 "application.asgi:app",
                 "--reload"
