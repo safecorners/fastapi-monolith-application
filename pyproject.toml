@@ -11,6 +11,8 @@ python = "^3.9"
 fastapi = "^0.95.0"
 uvicorn = {extras = ["standard"], version = "^0.21.1"}
 pydantic = "^1.10.6"
+sqlalchemy = "^2.0.7"
+dependency-injector = "^4.41.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.2.2"
